@@ -20,8 +20,8 @@ pipeline{
 		stage('server'){
 			steps{
 				rtServer(
-					id: "jfrog",
-					url: 'http://3.237.175.178:8082/artifactory',
+					id: "${params.id}",
+					url: "${params.url}",
 					username: 'admin',
 					password: 'Kavya62788#',
 					bypassProxy:true,
@@ -54,6 +54,8 @@ pipeline{
 	}
 	parameters{
 		string(name:'id',defaultValue: 'jfrog',description: '')
+		string(name:'url',defaultValue: 'http://3.237.175.178:8082/artifactory',description:'')
+		
 	}
 }
 }
