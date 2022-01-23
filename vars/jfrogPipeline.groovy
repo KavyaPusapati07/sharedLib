@@ -52,5 +52,8 @@ pipeline{
 			}
 		}
 	}
+	parameters{
+		String(name:'id',defaultValue: 'jfrog',description: '')
+	}
 }
 }
