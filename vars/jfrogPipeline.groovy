@@ -37,7 +37,7 @@ pipeline{
 						"files":[
 							{
 								"pattern": "*.war",
-								"target": "logic-ops-lab-snapshot-local"
+								"target": "logic-ops-lab-libs-snapshot-local"
 							}
 								]
 					}''',
