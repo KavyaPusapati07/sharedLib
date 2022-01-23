@@ -36,7 +36,7 @@ pipeline{
 					spec:'''{
 						"files":[
 							{
-								"pattern": "target\SpringBootRestWithH2-1.0.0-SNAPSHOT.jar",
+								"pattern": "target/SpringBootRestWithH2-1.0.0-SNAPSHOT.jar",
 								"target": "logic-ops-lab-snapshot-local"
 							}
 								]
