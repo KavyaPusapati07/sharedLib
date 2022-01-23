@@ -36,7 +36,7 @@ pipeline{
 					spec:'''{
 						"files":[
 							{
-								"pattern": "*-1.0.0-SNAPSHOT.jar",
+								"pattern": "*.jar",
 								"target": "logic-ops-lab-snapshot-local"
 							}
 								]
