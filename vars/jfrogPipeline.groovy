@@ -22,7 +22,7 @@ pipeline{
 				rtServer(
 					id: "${params.id}",
 					url: "${params.url}",
-					username: 'admin',
+					username: 'kavya',
 					password: 'Kavya62788#',
 					bypassProxy:true,
 					timeout:300
@@ -54,7 +54,7 @@ pipeline{
 	}
 	parameters{
 		string(name:'id',defaultValue: 'jfrog',description: '')
-		string(name:'url',defaultValue: 'http://3.237.175.178:8082/artifactory',description:'')
+		string(name:'url',defaultValue: 'https://kavyapusapati07.jfrog.io/artifactory',description:'')
 		
 	}
 }
